@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Open Website with Shortcut",
+    "version": "1.0",
+    "description": "Open a specific website using a keyboard shortcut",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "open-gmail": {
+        "suggested_key": {
+          "default": "Alt+1",
+          "mac": "Alt+1"
+        },
+        "description": "Open YouTube"
+      },
+      "open-youtube": {
+        "suggested_key": {
+          "default": "Alt+2",
+          "mac": "Alt+2"
+        },
+        "description": "Open YouTube"
+      },
+      "open-chatgpt": {
+        "suggested_key": {
+          "default": "Alt+3",
+          "mac": "Alt+3"
+        },
+        "description": "Open ChatGPT"
+      }
+    }
+  }
+  
